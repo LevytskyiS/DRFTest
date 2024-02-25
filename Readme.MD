@@ -2,7 +2,7 @@ Django REST Framework Application
 
 How to run:
 
-1. Download or clone this repository: git clone
+1. Download or clone this repository: git clone 'https://github.com/LevytskyiS/DRFTest.git'
 
 2. Install and activate a virtual environment: 
 2.1. python -m venv venv 
