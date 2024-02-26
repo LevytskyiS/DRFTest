@@ -1,19 +1,31 @@
 Django REST Framework Application
 
-How to run:
+How to Run:
 
-1. Download the archive or clone this repository: git clone 'https://github.com/LevytskyiS/DRFTest.git'
+1. Download the archive or clone this repository:
 
-2. Install and activate a virtual environment: 
-2.1. python -m venv venv 
-2.2. ./venv/Scripts/activate
+git clone 'https://github.com/LevytskyiS/DRFTest.git'
 
-3. Go to the project folder (cd drfsite) and install the requirements by runnning the 'pip install -r requirements.txt' command.
+2. Install and activate a virtual environment:
 
-4. Run PostgreSQL docker container by running the 'docker-compose up -d' command.
+# Create a virtual environment
+python -m venv venv
 
-5. Apply migrations for the project if needed: 
-'python manage.py migrate'
-'python manage.py migrate eshop'
+# Activate the virtual environment
+source venv/Scripts/activate  # For Windows
 
-6. Run Django server - 'python manage.py runserver'
+3. Navigate to the project folder (cd drfsite) and install the requirements by running:
+
+pip install -r requirements.txt
+
+4. Run the PostgreSQL Docker container:
+
+docker-compose up -d
+
+5. Apply migrations for the project if needed:
+
+python manage.py migrate
+
+6. Run the Django server:
+
+python manage.py runserver
